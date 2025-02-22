@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: firefighter_roster
+    password: firefighter_roster
+    url: jdbc:mysql://localhost:3306/firefighter_roster
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
